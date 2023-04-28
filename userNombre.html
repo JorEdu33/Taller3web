@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi formulario</title>
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>  
+</head>
+<body>
+    <div class="container">
+        <div class="row"> <!-- Elemento ROW -->
+          <div class="col s12 center-a"> <!-- Elemento COL (BIEN) -->
+            <div class="browser-default col s9"> <!-- Elemento COL (MAL) -->
+		<h2>Datos del usuario</h2>
+		<label for="Id_usr">Id Usuario:</label>
+		<input type="text"  id="Id_usr" name="Id_usr" placeholder="Escribe tu Id aquí">
+
+	<label for="pais">Pais:</label>
+	<select name="pais" class="browser-default" >
+		<option>Cuba</option>
+		<option>México</option>
+		<option>Nicaragua</option>
+		<option>Brasil</option>
+		<option>Colombia</option>
+		<option>Peru</option>
+	</select>
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre aquí">
+
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido aquí">
+
+    <label for="direccion">Dirección:</label>
+    <input type="text" id="direccion" name="direccion" placeholder="Escribe tu dirección aquí">
+
+    <label for="CC_Usuario">CC Usuario:</label>
+    <input type="text" id="CC_Usuario" name="CC_Usuario" placeholder="Escribe tu número de cédula aquí">
+
+    <label for="contraseña">Contraseña:</label>
+	<input type="password" id="contraseña" name="contraseña" placeholder="Escribe tu contraseña aquí">
+
+	<label for="correo">Correo electrónico:</label>
+	<input type="email" id="correo" name="correo" placeholder="Escribe tu correo electrónico aquí">
+
+    <label for="telefono">Teléfono:</label>
+    <input type="text" id="telefono" name="telefono" placeholder="Escribe tu número de teléfono aquí">
+
+	<input class="btn waves-effect waves-light" type="submit" value="Enviar">
+    <input class="btn waves-effect waves-light red" type="reset" value="Borrar">
+</div> 
+</div> 
+</div> 
+</div>
+</body>
+</html>
